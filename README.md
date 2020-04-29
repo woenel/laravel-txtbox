@@ -1,5 +1,5 @@
 # Laravel TxtBox
-[TxtBox](https://www.txtbox.com/) API for Laravel.
+[TxtBox](https://www.txtbox.com/) SMS API for Laravel.
 
 ![Packagist Version](https://img.shields.io/packagist/v/woenel/laravel-txtbox)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
