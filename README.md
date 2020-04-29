@@ -1,8 +1,11 @@
-# TxtBox
+# Laravel TxtBox
 [TxtBox](https://www.txtbox.com/) API for Laravel.
 
 ![Packagist Version](https://img.shields.io/packagist/v/woenel/laravel-txtbox)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
+
+## What is TxtBox
+Txtbox lets you send an SMS with a single line of code. No complicated setup, no dealing with telecom protocols and procedures.
 
 ## Installation
 
