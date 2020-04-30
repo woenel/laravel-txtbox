@@ -7,6 +7,11 @@
 ## What is TxtBox
 Txtbox lets you send an SMS with a single line of code. No complicated setup, no dealing with telecom protocols and procedures.
 
+## Requirements
+* PHP: 7.2.x
+* Laravel: 7.x.x
+* [TxtBox API Key](https://www.txtbox.com)
+
 ## Installation
 
 Install using Composer
