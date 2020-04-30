@@ -79,8 +79,8 @@ This happens when you successfully sent a message.
 
 ```
 {
-  success: true,
-  message: 'Message successfully sent to 09XXXXXXXXX'
+  "success": true,
+  "message": 'Message successfully sent to 09XXXXXXXXX'
 }
 ```
 
@@ -91,8 +91,8 @@ This happens when you did not provide a valid API key. API key can be modified i
 
 ```
 {
-  success: false,
-  message: 'Invalid Token'
+  "success": false,
+  "message": 'Invalid Token'
 }
 ```
 
@@ -101,9 +101,9 @@ This happens when you did not enter a value. **Number** `to()` and **Message** `
 
 ```
 {
-  success: false,
-  message: 'Unprocessable Entity',
-  errors: {
+  "success": false,
+  "message": 'Unprocessable Entity',
+  "errors": {
     number: [
       0 => 'The message field is required.'
     ],
@@ -118,7 +118,7 @@ This happens when you did not enter a value. **Number** `to()` and **Message** `
 This happens when you already used all of your SMS credits.
 ```
 {
-  success: false,
-  message: 'Insufficient credits. Please buy more credit to use this service.'
+  "success": false,
+  "message": 'Insufficient credits. Please buy more credit to use this service.'
 }
 ```
