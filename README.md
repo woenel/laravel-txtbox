@@ -26,7 +26,7 @@ These are the three methods you can use to send a message:
 
 ###### 1. Using facade
 ```
-use TxtBox;
+use Woenel\TxtBox\Facades\TxtBox;
 
 $result = TxtBox::to('09123456789')->message('Hello World!')->send();
 
