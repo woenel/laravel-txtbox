@@ -104,10 +104,10 @@ This happens when you did not enter a value. **Number** `to()` and **Message** `
   "success": false,
   "message": 'Unprocessable Entity',
   "errors": {
-    number: [
+    "number": [
       0 => 'The message field is required.'
     ],
-    message: [
+    "message": [
       0 => 'The number field is required.'
     ]
   }
