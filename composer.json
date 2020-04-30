@@ -26,7 +26,7 @@
                 "Woenel\\TxtBox\\TxtBoxServiceProvider"
             ],
             "aliases": {
-                "TxtBox": "Woenel\\TxtBox\\Facades\\TxtBox"
+                "Woenel\\Facades\\TxtBox": "Woenel\\TxtBox\\Facades\\TxtBox"
             }
         }
     }
