@@ -1,6 +1,6 @@
 <?php
 
-namespace Woenel;
+namespace Woenel\TxtBox;
 
 use GuzzleHttp\Client;
 
@@ -21,7 +21,7 @@ class TxtBox
             ]
         ]);
         
-        $this->endpoint = 'https://ws-live.txtbox.com/v1/sms/push';
+        $this->endpoint = config('txtbox.api_endpoint', 'https://ws-live.txtbox.com/v1/sms/push');
     }
     
     public function to($to)
@@ -46,7 +46,7 @@ class TxtBox
                 'message' => $this->message
             ],
             'http_errors' => false,
-            'verify' => config('txtbox.ssl_verify')
+            'verify' => config('txtbox.ssl_verify', true)
         ]);
 
         $this->result = json_decode($res->getBody()->getContents());

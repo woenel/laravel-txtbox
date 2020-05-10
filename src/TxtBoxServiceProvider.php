@@ -9,12 +9,12 @@ class TxtBoxServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/Config/txtbox.php' => config_path('txtbox.php'),
+            __DIR__ . '/config/txtbox.php' => config_path('txtbox.php'),
         ]);
     }
 
     public function register()
     {
-        $this->app->bind('TxtBox', 'Woenel\TxtBox');
+        $this->app->bind('TxtBox', 'Woenel\TxtBox\TxtBox');
     }
 }
