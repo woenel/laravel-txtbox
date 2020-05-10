@@ -1,6 +1,6 @@
 <?php
 
-namespace Woenel\TxtBox\Facades;
+namespace Woenel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
