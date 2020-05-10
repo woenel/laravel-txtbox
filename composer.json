@@ -10,14 +10,14 @@
     "authors": [
         {
             "name": "Ronnel Martinez",
-            "email": "misc.woe@outlook.ph",
+            "email": "ronnel@mronnel.com",
             "homepage": "https://mronnel.com"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Woenel\\": "src/"
+            "Woenel\\TxtBox": "src/"
         }
     },
     "extra": {
@@ -26,7 +26,7 @@
                 "Woenel\\TxtBox\\TxtBoxServiceProvider"
             ],
             "aliases": {
-                "Woenel\\Facades\\TxtBox": "Woenel\\TxtBox\\Facades\\TxtBox"
+                "TxtBox": "Woenel\\TxtBox\\Facades\\TxtBox"
             }
         }
     }
