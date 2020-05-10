@@ -31,7 +31,7 @@ These are the three methods you can use to send a message:
 
 ###### 1. Using facade
 ```
-use Woenel\Facades\TxtBox;
+use Woenel\TxtBox\Facades\TxtBox;
 
 $result = TxtBox::to('09123456789')->message('Hello World!')->send();
 
@@ -44,7 +44,7 @@ if($result->success) {
 
 ###### 2. Instantiating class
 ```
-use Woenel\TxtBox;
+use Woenel\TxtBox\TxtBox;
 
 $txtbox = new TxtBox;
 
@@ -59,7 +59,7 @@ if($result->success) {
 
 ###### 3. Instantiating class (one-by-one)
 ```
-use Woenel\TxtBox;
+use Woenel\TxtBox\TxtBox;
 
 $txtbox = new TxtBox;
 
