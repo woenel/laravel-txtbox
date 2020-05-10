@@ -9,9 +9,9 @@ class TxtBox
     private $client;
     private $endpoint;
 
-    public $to;
-    public $message;
-    public $result;
+    protected $to;
+    protected $message;
+    protected $result;
     
     public function __construct()
     {
