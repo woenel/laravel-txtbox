@@ -16,7 +16,12 @@ Txtbox lets you send an SMS with a single line of code. No complicated setup, no
 
 Install using Composer
 ```
+For Laravel 8:
 $ composer require woenel/laravel-txtbox
+
+For Laravel 7:
+$ composer require woenel/laravel-txtbox "^1.3"
+
 ```
 
 Publish the config file named `txtbox.php` and set the TxtBox API key.
