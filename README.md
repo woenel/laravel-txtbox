@@ -21,7 +21,6 @@ $ composer require woenel/laravel-txtbox
 
 For Laravel 7:
 $ composer require woenel/laravel-txtbox "^1.3"
-
 ```
 
 Publish the config file named `txtbox.php` and set the TxtBox API key.
