@@ -2,7 +2,7 @@
     "name": "woenel/laravel-txtbox",
     "description": "TxtBox API for Laravel.",
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.2|8.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.0"
     },
