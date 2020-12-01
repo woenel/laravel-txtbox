@@ -10,7 +10,7 @@ Txtbox lets you send an SMS with a single line of code. No complicated setup, no
 For more info, you can visit their website at: [https://www.txtbox.com](https://www.txtbox.com)
 
 ## Requirements
-* PHP: 7.2.x
+* PHP: 7.2.x or 8.0.x
 * Laravel: 8.x.x (For Laravel 7.x.x, use version [1.x.x](https://github.com/woenel/laravel-txtbox/releases))
 * [TxtBox API Key](https://www.txtbox.com)
 
