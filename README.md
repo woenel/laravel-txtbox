@@ -48,7 +48,7 @@ if($result->success) {
 }
 ```
 
-###### 2. Instantiating class
+###### 2. Instantiating class (chaining)
 ```
 use Woenel\TxtBox\TxtBox;
 
