@@ -11,7 +11,7 @@ For more info, you can visit their website at: [https://www.txtbox.com](https://
 
 ## Requirements
 * PHP: 7.2.x and up or 8.0.x
-* Laravel: 8.x.x (For Laravel 7.x.x, use version [1.x.x](https://github.com/woenel/laravel-txtbox/releases))
+* Laravel: 8.x.x or 9.x.x (For Laravel 7.x.x, use version [1.x.x](https://github.com/woenel/laravel-txtbox/releases))
 * [TxtBox API Key](https://www.txtbox.com)
 
 ## Installation
